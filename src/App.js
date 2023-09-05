@@ -21,7 +21,7 @@ function App() {
     let gramsLeft = grams - burning * hours;
     let calculatedResult;
 
-    //make calculations based on gender
+    //Make calculations based on gender
     if (gender === "male") {
       calculatedResult = gramsLeft / (weight * 0.7);
     } else {
